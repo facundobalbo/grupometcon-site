@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo Metcon | Soluciones en Ingeniería</title>
+  <meta name="description" content="Grupo Metcon — Ingeniería y Desarrollo · Construcción y Obras · Recursos y Suministros. San Luis, Argentina.">
+  <meta property="og:title" content="Grupo Metcon | Soluciones en Ingeniería">
+  <meta property="og:description" content="Empresa familiar con casi cuatro décadas construyendo con criterio. San Luis, Argentina.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/letra-m.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/letra-m.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav" aria-label="Navegación principal">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Grupo Metcon">
+        <img src="assets/img/logo-blanco.png" alt="Grupo Metcon" class="nav__logo-icon">
+        <div class="nav__logo-text">
+          <span class="nav__logo-name">Grupo <strong>Metcon</strong></span>
+          <span class="nav__logo-tag">Soluciones en Ingeniería</span>
+        </div>
+      </a>
+      <div class="nav__menu">
+        <a href="nosotros.html" class="nav__link">Nosotros</a>
+        <a href="rubros.html" class="nav__link">Rubros</a>
+        <a href="proyectos.html" class="nav__link">Proyectos</a>
+        <a href="contacto.html" class="nav__cta">Consultá tu proyecto</a>
+      </div>
+      <button class="nav__burger" id="navBurger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true">
+    <a href="nosotros.html" class="nav-overlay__link">Nosotros <span class="arrow">&rarr;</span></a>
+    <a href="rubros.html" class="nav-overlay__link">Rubros <span class="arrow">&rarr;</span></a>
+    <a href="proyectos.html" class="nav-overlay__link">Proyectos <span class="arrow">&rarr;</span></a>
+    <a href="contacto.html" class="btn btn--primary nav-overlay__cta">Consultá tu proyecto</a>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero__bg">
+        <img src="assets/img/obras/viales-apertura.jpg" alt="Obra Grupo Metcon" loading="eager">
+      </div>
+
+      <svg class="hero__topo" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice"
+           fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <g stroke="#C4782A" stroke-width="0.5">
+          <path opacity="0.10" d="M0,895 C240,878 480,908 720,891 C960,874 1200,901 1440,888"/>
+          <path opacity="0.09" d="M0,860 C240,843 480,873 720,856 C960,839 1200,866 1440,853"/>
+          <path opacity="0.08" d="M0,824 C240,808 480,837 720,820 C960,802 1200,830 1440,816"/>
+          <path opacity="0.07" d="M0,786 C240,771 480,800 720,782 C960,763 1200,793 1440,778"/>
+          <path opacity="0.06" d="M0,747 C240,733 480,761 720,742 C960,722 1200,754 1440,738"/>
+          <path opacity="0.05" d="M0,706 C240,693 480,721 720,700 C960,679 1200,713 1440,696"/>
+          <path opacity="0.04" d="M0,662 C240,651 480,678 720,656 C960,633 1200,670 1440,651"/>
+        </g>
+      </svg>
+
+      <div class="hero__content">
+        <div class="hero__eyebrow">
+          <span class="hero__eyebrow-line"></span>
+          <span class="hero__eyebrow-text">San Luis, Argentina</span>
+        </div>
+        <h1 class="hero__title">
+          Soluciones en<br>ingeniería para<br>obras que <em>perduran</em>
+        </h1>
+        <p class="hero__subtitle">
+          Grupo Metcon<span>·</span>Ingeniería y Desarrollo<span>·</span>Construcción y Obras<span>·</span>Recursos y Suministros
+        </p>
+        <div class="hero__ctas">
+          <a href="#rubros" class="btn btn--primary">Conocer rubros &rarr;</a>
+          <a href="#proyectos" class="btn btn--outline">Ver proyectos</a>
+        </div>
+      </div>
+
+      <div class="hero__stats">
+        <div class="hero__stats-inner">
+          <div class="hero__stat">
+            <div class="hero__stat-value"><span class="stat__prefix">+</span><span data-target="40">0</span></div>
+            <p class="hero__stat-label">Años de trayectoria</p>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-value"><span data-target="12">0</span></div>
+            <p class="hero__stat-label">Proyectos ejecutados</p>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-value"><span class="stat__prefix">+</span><span data-target="500">0</span><span class="stat__suffix">m²</span></div>
+            <p class="hero__stat-label">Superficie construida</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ticker-wrap" aria-hidden="true">
+        <div class="ticker">
+          <span class="ticker__item">
+            Ingeniería y Desarrollo<span class="ticker__dot"></span>Construcción y Obras<span class="ticker__dot"></span>Recursos y Suministros<span class="ticker__dot"></span>Parque Industrial Norte<span class="ticker__dot"></span>San Luis<span class="ticker__dot"></span>Argentina<span class="ticker__dot"></span>Fundaciones<span class="ticker__dot"></span>Obras Hidráulicas<span class="ticker__dot"></span>Obras Viales<span class="ticker__dot"></span>Topografía<span class="ticker__dot"></span>Cálculo Estructural<span class="ticker__dot"></span>
+          </span>
+          <span class="ticker__item" aria-hidden="true">
+            Ingeniería y Desarrollo<span class="ticker__dot"></span>Construcción y Obras<span class="ticker__dot"></span>Recursos y Suministros<span class="ticker__dot"></span>Parque Industrial Norte<span class="ticker__dot"></span>San Luis<span class="ticker__dot"></span>Argentina<span class="ticker__dot"></span>Fundaciones<span class="ticker__dot"></span>Obras Hidráulicas<span class="ticker__dot"></span>Obras Viales<span class="ticker__dot"></span>Topografía<span class="ticker__dot"></span>Cálculo Estructural<span class="ticker__dot"></span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="about">
+      <div class="container">
+        <div class="about__grid">
+          <div>
+            <div class="about__header fade-up">
+              <span class="section-label">01 — Quiénes somos</span>
+              <h2 class="section-title">Casi cuatro décadas<br>construyendo con <em>criterio</em></h2>
+            </div>
+            <p class="about__body fade-up">
+              Grupo Metcon nació en San Luis como evolución de Metrovial SRL, empresa familiar
+              con casi cuatro décadas de trayectoria en construcción e ingeniería. Lo que empezó
+              como una contratista vial creció hasta convertirse en un grupo de tres rubros
+              especializados con capacidad técnica propia.
+            </p>
+            <p class="about__body fade-up">
+              Cada área opera con autonomía técnica bajo un mismo criterio de exigencia:
+              proyectar bien, ejecutar con rigor y cumplir los plazos. Desde el Parque Industrial
+              Norte hasta obras civiles e industriales en toda la provincia, el trabajo habla por sí solo.
+            </p>
+            <a href="nosotros.html" class="about__link fade-up">Conocer más &rarr;</a>
+          </div>
+          <div class="about__img-wrap fade-up">
+            <img src="assets/img/obras/topografia.jpg" alt="Relevamiento topográfico Grupo Metcon" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats" aria-label="Estadísticas">
+      <div class="container">
+        <div class="stats__grid">
+          <div class="stat fade-up">
+            <div class="stat__value"><span class="stat__prefix">+</span><span data-target="40">0</span></div>
+            <p class="stat__label">Años de trayectoria</p>
+          </div>
+          <div class="stat fade-up">
+            <div class="stat__value"><span data-target="12">0</span></div>
+            <p class="stat__label">Proyectos ejecutados</p>
+          </div>
+          <div class="stat fade-up">
+            <div class="stat__value"><span class="stat__prefix">+</span><span data-target="500">0</span><span class="stat__suffix">m²</span></div>
+            <p class="stat__label">Superficie construida</p>
+          </div>
+          <div class="stat fade-up">
+            <div class="stat__value"><span class="stat__prefix">+</span><span data-target="8">0</span></div>
+            <p class="stat__label">Clientes conformes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RUBROS -->
+    <section id="rubros" class="rubros">
+      <div class="container">
+        <div class="rubros__header fade-up">
+          <div>
+            <span class="section-label">02 — Nuestras áreas</span>
+            <h2 class="section-title">Tres rubros,<br>una misma <em>exigencia</em></h2>
+          </div>
+          <a href="rubros.html" class="proyectos__all">Ver todos &rarr;</a>
+        </div>
+        <div class="rubros__grid">
+          <article class="rubro-card fade-up">
+            <p class="rubro-card__num">01</p>
+            <h3 class="rubro-card__title">Ingeniería<br>y Desarrollo</h3>
+            <div class="rubro-card__divider"></div>
+            <p class="rubro-card__body">Proyectos ejecutivos, relevamientos topográficos, cálculo estructural y consultoría técnica para obras de cualquier escala.</p>
+            <a href="rubros.html#ingenieria" class="rubro-card__link">Ver rubro &rarr;</a>
+          </article>
+          <article class="rubro-card fade-up">
+            <p class="rubro-card__num">02</p>
+            <h3 class="rubro-card__title">Construcción<br>y Obras</h3>
+            <div class="rubro-card__divider"></div>
+            <p class="rubro-card__body">Ejecución de obras civiles, industriales e infraestructura vial. Fundaciones, movimiento de suelos y encierres perimetrales.</p>
+            <a href="rubros.html#construccion" class="rubro-card__link">Ver rubro &rarr;</a>
+          </article>
+          <article class="rubro-card fade-up">
+            <p class="rubro-card__num">03</p>
+            <h3 class="rubro-card__title">Recursos<br>y Suministros</h3>
+            <div class="rubro-card__divider"></div>
+            <p class="rubro-card__body">Provisión de materiales, gestión de maquinaria pesada y logística integral para el abastecimiento de obra.</p>
+            <a href="rubros.html#recursos" class="rubro-card__link">Ver rubro &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="proyectos">
+      <div class="container">
+        <div class="proyectos__head fade-up">
+          <div>
+            <span class="section-label">03 — Proyectos</span>
+            <h2 class="section-title">El trabajo<br>habla por <em>sí solo</em></h2>
+          </div>
+          <a href="proyectos.html" class="proyectos__all">Ver todos &rarr;</a>
+        </div>
+        <div class="proyectos__grid">
+          <article class="proyecto-card fade-up">
+            <img src="assets/img/obras/viales-apertura.jpg" alt="Cierre Perimetral Parque Industrial Norte" loading="lazy">
+            <div class="proyecto-card__overlay"></div>
+            <div class="proyecto-card__info">
+              <span class="proyecto-card__tag">Construcción y Obras</span>
+              <h3 class="proyecto-card__name">Cierre Perimetral<br>Parque Industrial Norte</h3>
+              <p class="proyecto-card__meta">San Luis &nbsp;·&nbsp; 2026</p>
+            </div>
+          </article>
+          <article class="proyecto-card fade-up">
+            <img src="assets/img/obras/hormigon-colado.jpg" alt="Torre San Luis" loading="lazy">
+            <div class="proyecto-card__overlay"></div>
+            <div class="proyecto-card__info">
+              <span class="proyecto-card__tag">Construcción y Obras</span>
+              <h3 class="proyecto-card__name">Torre San Luis<br>General Paz y Lavalle</h3>
+              <p class="proyecto-card__meta">San Luis &nbsp;·&nbsp; En curso</p>
+            </div>
+          </article>
+          <article class="proyecto-card fade-up">
+            <img src="assets/img/obras/viales-nivelacion.jpg" alt="Obras Hidráulicas Canal Norte" loading="lazy">
+            <div class="proyecto-card__overlay"></div>
+            <div class="proyecto-card__info">
+              <span class="proyecto-card__tag">Ingeniería y Desarrollo</span>
+              <h3 class="proyecto-card__name">Obras Hidráulicas<br>Canal Norte</h3>
+              <p class="proyecto-card__meta">San Luis &nbsp;·&nbsp; 2025</p>
+            </div>
+          </article>
+          <article class="proyecto-card fade-up">
+            <img src="assets/img/obras/rodillo-compactador.jpg" alt="Infraestructura Vial" loading="lazy">
+            <div class="proyecto-card__overlay"></div>
+            <div class="proyecto-card__info">
+              <span class="proyecto-card__tag">Construcción y Obras</span>
+              <h3 class="proyecto-card__name">Infraestructura Vial<br>Acceso Urbano</h3>
+              <p class="proyecto-card__meta">San Luis &nbsp;·&nbsp; 2024</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-final">
+      <svg class="cta-final__topo" viewBox="0 0 1440 500" preserveAspectRatio="xMidYMid slice"
+           fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <g stroke="#C4782A" stroke-width="0.5">
+          <path opacity="0.3" d="M0,480 C360,462 720,492 1080,474 C1260,465 1380,478 1440,470"/>
+          <path opacity="0.25" d="M0,450 C360,432 720,462 1080,444 C1260,435 1380,448 1440,440"/>
+          <path opacity="0.2"  d="M0,418 C360,401 720,430 1080,412 C1260,403 1380,416 1440,408"/>
+          <path opacity="0.15" d="M0,384 C360,368 720,397 1080,378 C1260,369 1380,382 1440,374"/>
+          <path opacity="0.10" d="M0,348 C360,333 720,362 1080,342 C1260,333 1380,346 1440,338"/>
+          <path opacity="0.07" d="M0,310 C360,297 720,325 1080,304 C1260,295 1380,308 1440,300"/>
+        </g>
+      </svg>
+      <div class="container">
+        <div class="cta-final__inner">
+          <h2 class="cta-final__title fade-up">¿Tenés un proyecto<br><em>en mente?</em></h2>
+          <p class="cta-final__body fade-up">Contanos qué necesitás. Trabajamos en obras civiles, industriales y de infraestructura en toda la provincia de San Luis.</p>
+          <a href="contacto.html" class="btn btn--white fade-up">Iniciá una consulta &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <img src="assets/img/logo-blanco.png" alt="Grupo Metcon" class="footer__brand-logo">
+          <p class="footer__brand-name">Grupo <strong>Metcon</strong></p>
+          <p class="footer__brand-tag">Soluciones en Ingeniería</p>
+          <p class="footer__brand-desc">Empresa familiar con casi cuatro décadas de trayectoria en ingeniería, construcción e infraestructura en San Luis, Argentina.</p>
+        </div>
+        <div>
+          <p class="footer__col-title">Sitio</p>
+          <ul class="footer__links">
+            <li><a href="nosotros.html" class="footer__link">Nosotros</a></li>
+            <li><a href="rubros.html" class="footer__link">Rubros</a></li>
+            <li><a href="proyectos.html" class="footer__link">Proyectos</a></li>
+            <li><a href="contacto.html" class="footer__link">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Rubros</p>
+          <ul class="footer__links">
+            <li><a href="rubros.html#ingenieria" class="footer__link">Ingeniería y Desarrollo</a></li>
+            <li><a href="rubros.html#construccion" class="footer__link">Construcción y Obras</a></li>
+            <li><a href="rubros.html#recursos" class="footer__link">Recursos y Suministros</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Contacto</p>
+          <div class="footer__contact-row"><a href="tel:+5492664252788">+54 9 2664 25-2788</a></div>
+          <div class="footer__contact-row"><a href="mailto:correo@metcon.com.ar">correo@metcon.com.ar</a></div>
+          <div class="footer__contact-row">San Luis, Argentina</div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__legal">&copy; 2026 Grupo Metcon. Todos los derechos reservados.</p>
+        <div class="footer__social">
+          <a href="https://instagram.com/grupometcon" class="footer__social-link" target="_blank" rel="noopener">Instagram</a>
+          <a href="contacto.html" class="footer__social-link">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

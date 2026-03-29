@@ -1,0 +1,13 @@
+# Images — after Cloudinary migration, delete assets/img/obras/ and add here:
+# assets/img/obras/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Cloudinary credentials
+.env
+.env.local
+
+# Vercel
+.vercel

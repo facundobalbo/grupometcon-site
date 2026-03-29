@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — Grupo Metcon</title>
+  <meta name="description" content="Contactate con Grupo Metcon. Consultas de obra, presupuestos y proyectos en San Luis, Argentina.">
+  <link rel="icon" href="assets/img/letra-m.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/img/logo-blanco.png" alt="Grupo Metcon" class="nav__logo-icon">
+        <div class="nav__logo-text">
+          <span class="nav__logo-name">Grupo <strong>Metcon</strong></span>
+          <span class="nav__logo-tag">Soluciones en Ingeniería</span>
+        </div>
+      </a>
+      <div class="nav__menu">
+        <a href="nosotros.html" class="nav__link">Nosotros</a>
+        <a href="rubros.html" class="nav__link">Rubros</a>
+        <a href="proyectos.html" class="nav__link">Proyectos</a>
+        <a href="contacto.html" class="nav__cta">Consultá tu proyecto</a>
+      </div>
+      <button class="nav__burger" id="navBurger" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay">
+    <a href="nosotros.html" class="nav-overlay__link">Nosotros <span class="arrow">&rarr;</span></a>
+    <a href="rubros.html" class="nav-overlay__link">Rubros <span class="arrow">&rarr;</span></a>
+    <a href="proyectos.html" class="nav-overlay__link">Proyectos <span class="arrow">&rarr;</span></a>
+    <a href="contacto.html" class="btn btn--primary nav-overlay__cta">Consultá tu proyecto</a>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="section-label page-hero__label">Contacto</span>
+        <h1 class="page-hero__title">Construyamos algo<br><em>extraordinario</em> juntos</h1>
+        <p class="page-hero__lead">Nuestro equipo está listo para evaluar tu proyecto y darte una respuesta técnica concreta. Sin vueltas.</p>
+      </div>
+    </section>
+
+    <section class="contacto-page">
+      <div class="container">
+        <div class="contacto-grid">
+
+          <div class="contacto-form fade-up">
+            <h2 class="contacto-form__title">Brief del proyecto</h2>
+            <p class="contacto-form__subtitle">Completar especificaciones técnicas</p>
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="nombre">Nombre completo</label>
+                  <input type="text" id="nombre" name="nombre" placeholder="Juan Pérez" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Correo electrónico</label>
+                  <input type="email" id="email" name="email" placeholder="juan@empresa.com" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="tipo">Tipo de proyecto</label>
+                  <select id="tipo" name="tipo" required>
+                    <option value="" disabled selected>Seleccionar tipo</option>
+                    <option value="civil">Obra civil</option>
+                    <option value="industrial">Obra industrial</option>
+                    <option value="vial">Infraestructura vial</option>
+                    <option value="hidraulica">Obra hidráulica</option>
+                    <option value="ingenieria">Consultoría / Ingeniería</option>
+                    <option value="suministros">Recursos y suministros</option>
+                    <option value="otro">Otro</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="escala">Escala estimada (m²)</label>
+                  <input type="text" id="escala" name="escala" placeholder="ej. 2.500 m²">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="descripcion">Descripción del proyecto</label>
+                <textarea id="descripcion" name="descripcion" placeholder="Describí brevemente el alcance de la obra, ubicación y cronograma tentativo..." required></textarea>
+              </div>
+              <button type="submit" class="form-submit">Transmitir consulta &rarr;</button>
+            </form>
+          </div>
+
+          <div class="contacto-info fade-up">
+            <div>
+              <p class="info-block__label">Dirección</p>
+              <p class="info-block__value">San Luis, Argentina</p>
+              <p class="info-block__detail">Obras en toda la provincia de San Luis</p>
+            </div>
+            <div>
+              <p class="info-block__label">Contacto directo</p>
+              <p class="info-block__value"><a href="tel:+5492664252788">+54 9 2664 25-2788</a></p>
+              <p class="info-block__detail"><a href="mailto:correo@metcon.com.ar">correo@metcon.com.ar</a></p>
+            </div>
+            <div>
+              <p class="info-block__label">Acceso rápido</p>
+              <div class="info-links">
+                <a href="rubros.html#ingenieria" class="info-link">Ingeniería y Desarrollo <span class="arrow">&rarr;</span></a>
+                <a href="rubros.html#construccion" class="info-link">Construcción y Obras <span class="arrow">&rarr;</span></a>
+                <a href="rubros.html#recursos" class="info-link">Recursos y Suministros <span class="arrow">&rarr;</span></a>
+                <a href="proyectos.html" class="info-link">Ver proyectos ejecutados <span class="arrow">&rarr;</span></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <img src="assets/img/logo-blanco.png" alt="Grupo Metcon" class="footer__brand-logo">
+          <p class="footer__brand-name">Grupo <strong>Metcon</strong></p>
+          <p class="footer__brand-tag">Soluciones en Ingeniería</p>
+          <p class="footer__brand-desc">Empresa familiar con casi cuatro décadas de trayectoria en San Luis, Argentina.</p>
+        </div>
+        <div>
+          <p class="footer__col-title">Sitio</p>
+          <ul class="footer__links">
+            <li><a href="nosotros.html" class="footer__link">Nosotros</a></li>
+            <li><a href="rubros.html" class="footer__link">Rubros</a></li>
+            <li><a href="proyectos.html" class="footer__link">Proyectos</a></li>
+            <li><a href="contacto.html" class="footer__link">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Rubros</p>
+          <ul class="footer__links">
+            <li><a href="rubros.html#ingenieria" class="footer__link">Ingeniería y Desarrollo</a></li>
+            <li><a href="rubros.html#construccion" class="footer__link">Construcción y Obras</a></li>
+            <li><a href="rubros.html#recursos" class="footer__link">Recursos y Suministros</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Contacto</p>
+          <div class="footer__contact-row"><a href="tel:+5492664252788">+54 9 2664 25-2788</a></div>
+          <div class="footer__contact-row"><a href="mailto:correo@metcon.com.ar">correo@metcon.com.ar</a></div>
+          <div class="footer__contact-row">San Luis, Argentina</div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__legal">&copy; 2026 Grupo Metcon. Todos los derechos reservados.</p>
+        <div class="footer__social">
+          <a href="https://instagram.com/grupometcon" class="footer__social-link" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
